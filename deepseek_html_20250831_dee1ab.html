@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta Interactiva Trucada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ruleta Interactiva</h1>
+        <div class="info-trucada">✨ Modo especial activado: Beso y Abrazo tienen más probabilidades</div>
+        
+        <div class="ruleta-container">
+            <div class="flecha"></div>
+            <canvas id="ruleta" width="400" height="400"></canvas>
+        </div>
+        
+        <div class="controles">
+            <button id="girar">Girar Ruleta</button>
+            <div id="resultado"></div>
+        </div>
+        
+        <div class="probabilidades">
+            <div>Probabilidades:</div>
+            <div>Beso: 25% | Abrazo: 25% | Otros: 8.3% cada uno</div>
+        </div>
+        
+        <div class="sonido-control">
+            <input type="checkbox" id="sonidoCheck" checked>
+            <label for="sonidoCheck">Activar sonidos</label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
