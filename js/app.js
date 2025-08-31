@@ -5,7 +5,7 @@ const centroX = canvas.width / 2;
 const centroY = canvas.height / 2;
 const radio = canvas.width / 2 - 10;
 
-const opciones = ["Beso", "1$", "Abrazo", "Cachetada", "Caricia", "Regalo", "Piropo", "Chiste"];
+const opciones = ["Beso", "Tira otra vez", "Abrazo", "Cachetada", "Caricia", "Regalo", "Piropo", "Chiste"];
 const colores = ["#FF6384","#36A2EB","#FFCE56","#4BC0C0","#9966FF","#FF9F40","#8BC34A","#E91E63"];
 
 // Pesos: más = más probabilidad, menos = menos probabilidad
